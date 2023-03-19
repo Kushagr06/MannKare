@@ -1,7 +1,8 @@
+
 {
   "company": {
     "name": "mann kare",
-    "logo": "/assets/images/OGlogo.svg"
+    "logo": "/assets/images/mannkareL.svg"
   },
   "navigation": [
     {
@@ -24,8 +25,8 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "What to Buy?",
-    "subtitle": "Jo mann kare.",
+    "title": "What to Buy? Jo",
+    "subtitle": "mann kare.",
     "description": "Our platform is the ultimate destination for fashion lovers who want access to the latest trends and designs",
     "img": "/assets/images/banner3.png",
     "primaryAction": {
@@ -70,7 +71,7 @@
       {
         "name": "Convenience",
         "description": "Join us and discover the convenience of shopping online for your favorite fashion brands, all in one place.",
-        "icon": "/assets/images/react.png"
+        "icon": "FaGrinStars"
       },
       {
         "name": "Accessibility",
@@ -158,9 +159,8 @@
       
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "insta": "/",
+      "linkedin": "/"
     }
   }
 }

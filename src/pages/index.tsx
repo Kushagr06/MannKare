@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { Fragment } from 'react';
+import ScrollButton from '../components/Scroll'
 import About from '../components/About';
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
@@ -8,11 +9,12 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Pricing from '../components/Pricing';
+// import Pricing from '../components/Pricing';
 import Product from '../components/Product';
 
 const App = () => {
   return (
+  
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
@@ -49,6 +51,7 @@ const App = () => {
       </LazyShow>
       <Analytics />
     </div>
+ 
   );
 };
 

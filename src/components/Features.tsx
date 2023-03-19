@@ -29,7 +29,7 @@ const Features = () => {
           <p className="mt-2 leading-2 font-extrabold tracking-tight text-gray-100 text-[5vh]">
             {subtitle}
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-300 lg:mx-auto font-[3vh]">
+          <p className="mt-4  text-xl text-gray-300 lg:mx-auto font-[3vh] md:pb-10">
             {description}
           </p>
         </div>
@@ -40,15 +40,15 @@ const Features = () => {
               <div key={feature.name} className="relative">
                 <dt>
                   <div
-                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary border-primary border-4`}
+                    className={`absolute flex items-center justify-center h-6 w-6 rounded-md bg-background text-tertiary border-primary border-4`}
                   >
-                    <img
+                    {/* <img
                       className={`inline-block h-6 w-6 rounded-full`}
                       src={feature.icon}
                       alt={feature.name}
-                    />
+                    /> */}
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-100">
+                  <p className="ml-16 text-lg leading-6 font-medium text-primary">
                     {feature.name}
                   </p>
                 </dt>
