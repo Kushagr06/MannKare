@@ -80,7 +80,7 @@ const Product = () => {
             </div>
             <div className={`w-full sm:w-1/2 p-6`}>
               <img
-                className="h-6/6 md:scale-150 scale-105 sm:mt-24 sm:-mb-10 sm:ml-20 hover:-translate-y-16 duration-200 "
+                className="h-6/6 md:scale-150 scale-105 sm:mt-24 sm:-mb-10 sm:ml-20 hover:translate-y-16 duration-200 "
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
               />
@@ -91,7 +91,7 @@ const Product = () => {
           >
             <div className={`w-full sm:w-1/2 p-6`}>
               <img
-                className="h-6/6 bg-blend-normal hover:translate-y-16 duration-200"
+                className="h-6/6 bg-blend-normal hover:-translate-y-16 duration-200"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
               />
