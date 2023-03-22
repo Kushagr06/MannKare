@@ -8,11 +8,11 @@ const MainHero = () => {
 const [text, setText] = useState("")
 
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-10 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-100 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">{mainHero.title}</span>{' '}
-          <span className={`block text-primary xl:inline font-custom tracking-wider`}>
+          <span className={`block text-primary xl:inline font-custom tracking-wider hover:text-secondary`}>
             {mainHero.subtitle}
           </span>
         </h1>
