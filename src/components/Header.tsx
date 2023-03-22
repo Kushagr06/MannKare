@@ -117,7 +117,6 @@ const Menu = () => {
                 ))}
               </div>
               <div
-                href={callToAction.href}
                 className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100 font-custom font-bold`}
               >
                 {callToAction.text}
